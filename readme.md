@@ -1,7 +1,10 @@
 ## Goal
-Write a detailed example that
 
-1. converts C++ classes to python classes
+Robot is a detailed C++ example that using pybind11 a Python API is created for.
+
+In the example we see:
+
+1. C++ classes converted to python classes
     - convert constructors
     - convert methods
     - read-write public data members
@@ -9,10 +12,10 @@ Write a detailed example that
     - convert class template too
     - Inject polymorphic objects to constructors
 
-2. Convert C++ functions to Python functions
+2. C++ functions are converted to Python functions
     - Pass polymorphic object as argument
 
-3. Receive STL containers data in Python
+3. STL containers data are received in Python
 
 
 ## Create Python module
