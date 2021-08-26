@@ -1,9 +1,10 @@
-#include "../t800.h"
-#include "../t1000.h"
-#include "../helper.h"
+#include "../src/t800.h"
+#include "../src/t1000.h"
+#include "../src/helper.h"
 
-#include "pybind11/pybind11.h"
-#include "pybind11/stl.h" // to convert C++ STL containers to python list
+#include "../pybind11/include/pybind11/pybind11.h"
+// to convert C++ STL containers to python list
+#include "../pybind11/include/pybind11/stl.h" 
 
 namespace py = pybind11;
 using namespace std;

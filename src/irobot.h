@@ -1,10 +1,6 @@
 #if !defined(IROBOT_H)
 #define IROBOT_H
 
-
-
-
-
 #include "speech.h"
 #include <iostream>
 
@@ -19,6 +15,5 @@ public:
   virtual void Walk() = 0;
   void Talk() { speech.Talk(); }
 };
-
 
 #endif // IROBOT_H

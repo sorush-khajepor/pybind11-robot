@@ -5,4 +5,4 @@ set (CMAKE_CXX_STANDARD 20)
 
 add_subdirectory(pybind11)
 
-pybind11_add_module(robot "./src/pybind/robot.cpp")
+pybind11_add_module(robot "./pythonApi/robot.cpp")
