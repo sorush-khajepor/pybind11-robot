@@ -1,4 +1,4 @@
-#if !defined(SPEECH_H)
+#ifndef SPEECH_H
 #define SPEECH_H
 
 #include <iostream>

@@ -1,4 +1,4 @@
-#if !defined(IROBOT_H)
+#ifndef IROBOT_H
 #define IROBOT_H
 
 #include "speech.h"
